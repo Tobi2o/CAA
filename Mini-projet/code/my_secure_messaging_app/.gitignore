@@ -1,0 +1,42 @@
+# Ignorer les fichiers de compilation
+/target/
+/frontend/node_modules/
+
+# Fichiers Cargo spécifiques
+**/Cargo.lock
+**/Cargo.toml.orig
+
+# Logs
+*.log
+
+# Caches de l'environnement
+/.cache/
+/target/
+
+# Fichiers spécifiques aux éditeurs/IDEs
+/.idea/
+/.vscode/
+/*.iml
+
+# Sorties de test
+/tests/*.rs.bk
+
+# Rust/Cargo metadata
+*.rs.bk
+.DS_Store
+
+# Dumps ou fichiers temporaires
+*.bak
+*.tmp
+
+# Fichiers générés par rustfmt
+**/*.rs.bk
+
+# Rust Analyzer (si utilisé)
+rust-project.json
+
+# Configurations spécifiques au système d'exploitation
+Thumbs.db
+*.swp
+
+.env

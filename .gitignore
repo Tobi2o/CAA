@@ -1,0 +1,19 @@
+# Ignorer les fichiers de certificats
+*.crt
+*.pem
+*.csr
+*.key
+
+# Ignorer les scripts spécifiques ou les fichiers sensibles
+*.hcl
+vault-setup-script.sh
+
+# Ignorer tous les fichiers dans un dossier spécifique (par exemple "vault/data")
+vault/data/*
+vault/logs/*
+
+# Ignorer tous les secrets ou clés dans des répertoires spécifiques
+vault/certs/*
+vault/keys/*
+Mini-projet/code/my_secure_messaging_app/Cargo.toml
+Mini-projet/code/my_secure_messaging_app/frontend/node_modules/@swc/helpers/_/_await_value/package.json
